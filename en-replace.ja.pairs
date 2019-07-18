@@ -1,9 +1,9 @@
 ### Title screen
 Begin
-ベギン
+開始
 
 Continue
-持続する
+コンティニュー
 
 Profile
 プロフィール
@@ -19,11 +19,11 @@ Audio
 オーディオ
 
 Save & Quit
-保存する
+保存して終了する
 
 #### as in "go back to previous menu"
 Back
-バック
+戻る
 
 #### UI = user interface
 UI Scale
@@ -33,7 +33,7 @@ Fullscreen
 全画面表示
 
 Snowfall
-降雪
+Snowfall
 
 #### Graphic effects quality shown as `Effects  Low`, `Effects  High` etc
 Effects
@@ -72,7 +72,7 @@ Background only
 
 #### eg "Fullscreen: On", "Autocomplete: Off"
 On
-に
+オン
 
 Off
 オフ
@@ -96,7 +96,7 @@ Decrease Speed
 速度を下げる
 
 Increase Speed
-速度を上げます
+速度を上げる
 
 Message Archive
 メッセージアーカイブ
@@ -128,7 +128,7 @@ Step over
 
 #### stop running code
 Stop
-やめる
+停止
 
 #### pause running code
 Pause
@@ -162,51 +162,51 @@ Add the lines:
 行を追加します。
 
 Press play to run
-走るためにplayを押す
+実行のためにplayを押す
 
 Modify the commands and \nre-run to reach the exit
-コマンドを変更して、出口に到達するように再実行します。
+コマンドを変更して\n出口に到達するように再実行します。
 
 Press to exit level
-終了レベルに押す
+レベルを終了するために押す
 
 Levels have multiple stages\nclick here to view each
 レベルには複数の段階があります\nそれぞれを見るにはここをクリックしてください
 
 Your code will be re-run each stage,\nso a single solution must solve all.\nReturn to the first stage
-コードは各ステージで再実行されるため、1つのソリューションですべてを解決する必要があります。\n最初のステージに戻る
+コードは各ステージで再実行されるので、\n1つのソリューションですべてを解決する必要があります。\n最初のステージに戻る
 
 Reach the first stage exit
-第一段階出口に達する
+第一ステージの出口に到達する
 
 Rework to reach all exits, remember\n code is re-run from the top at each stage
-覚えておいてください。各段階でコードが上から再実行される
+すべての出口に到達するように修正します、覚えておいてください、\nステージ毎にコードは一番上から再実行されます
 
 Change game speed
 ゲームスピードを変更する
 
 #### "primer" is the code guide/book made to teach the coding language
 Click to open the Code Reference, it contains all\nthe primer sections and functions recovered so far
-クリックすると、コードリファレンスが開きます。これには、\nこれまでに回復したすべての\nプライマーセクションと機能
+クリックすると、コードリファレンスが開きます。これには、\nこれまでに回復したすべての入門セクションと機能が含まれています
 
 Click to close
 クリックして閉じる
 
 There's some unfinished code found on this level, try\nrunning it and reworking... or just start from scratch
-このレベルには未完成のコードがいくつかあります。それを実行してやり直してみてください。
+このレベルには未完成のコードがいくつかあります。\nそれを実行してやり直してみてください。
 
 #### note: ↑,↓ chars are converted into icons and should always exist in order
 Scroll with mouse wheel,\nalt ↑/↓, alt pageup/pagedown
-マウスホイールでスクロール、\nalt↑/↓、alt pageup/pagedown
+マウスホイールでスクロール、\nalt ↑/↓、alt pageup/pagedown
 
 Click to view all recovered messages
-クリックして回収されたメッセージをすべて表示
+クリックして回収されたすべてのメッセージを表示します
 
 Try using `loop` in your solution
 あなたのソリューションで `loop`を使ってみてください
 
 Try using `else` and \na comparison like `>`
-`else`と`>`のような比較を使ってみてください。
+`else`と`>`のような比較を\n使ってみてください。
 
 #### "Comparison" and "Conditions III" are chapter names in the code reference
 Read Comparison and Conditions III to see `>` and `else` usage
@@ -233,24 +233,24 @@ Level solutions can be\nsaved and loaded here
 レベルのソリューションを\n保存してここにロードすることができます
 
 The best scoring code in each\ncategory is automatically saved
-各カテゴリーの最高得点コードは自動的に保存されます
+各カテゴリーの最高得点コードは\n自動的に保存されます
 
 Reach the revealed location
-明らかにされた場所に達する
+明らかにされた場所に到達する
 
 Hold alt to access more options while paused
 一時停止中にAltキーを押しながら他のオプションにアクセスする
 
 Dark stages are similar to the others\nbut their details are hidden
-暗いステージは他のステージと似ていますが、その詳細は隠されています
+暗いステージは他のステージと似ていますが\nその詳細は隠されています
 
 Ensure your solution is general enough\nto solve these hidden variants
-あなたの解決策が十分に一般的であることを確認してください\nこれらの隠された変種を解決するために
+あなたの解決策が十分に一般的であることを確認してください\nこれらの隠されたバリアントを解決するために
 
 ### Score screen
 #### explanation of "Time" score
 Sum of function call runtimes & environmental delays
-関数呼び出しランタイムの合計
+関数呼び出しランタイムと環境遅延の合計
 
 #### explanation of "Solution size" score
 Number of distinct evaluated code phrases
